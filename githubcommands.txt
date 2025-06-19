@@ -1,0 +1,13 @@
+// all of these are LOCAL/OFFLINE until pushed remotely
+git init                    - create empty directory
+git status                  -: show which files are being tracked
+git add <file>              -: add files to be tracked
+git restore --staged <file> - remove tracking
+git commit -m "message"     -: commit (save a snapshot of the tracked files) LOCALLY
+git commit --no-edit        - commit without a message
+git log                     -: show commit history
+git reset --soft HEAD~1     - undo last commit
+git tag                     - list tags
+git tag -a <tagname> -m "message"       - for annotated tag // tags useful for versions/releases
+git remote add <name> <url> - create remote repository
+git push <remoterepo> <name> -: push to remote repository
