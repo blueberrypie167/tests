@@ -11,7 +11,7 @@ int main(){
         int index = left.find(input);
         cout << right[index];
     };
-    
+    //
     /*for(int i = 0; i < 3;i++){
         if(find(left.begin(), left.end(), 'x') != left.end()){
             int index = left.find('x');
